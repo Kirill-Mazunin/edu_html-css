@@ -1,0 +1,186 @@
+@font-face {
+	font-family: 'Gilroy-SemiBold';
+	src: url('../fonts/gilroy-semibold.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-semibold.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-semibold.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-semibold.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-semibold.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-semibold.svg#gilroy-semibold') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*=========================== header =======================================*/
+.header {
+	padding: 30px 0;
+	margin: 0 0 40px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	gap: 36px;
+}
+
+.menu-link {
+	font-family: 'Gilroy-SemiBold', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 36px;
+}
+
+.menu-home-link {
+	color: #F25822;
+}
+
+/*=========================== END header ====================================*/
+/*============================== top content ================================*/
+.top-content {
+	padding: 0 0 50px 0;
+	margin: 0 0 115px 0;
+	display: flex;
+	justify-content: flex-start;
+	gap: 40px;
+}
+
+.top-info {
+	max-width: 522px;
+	max-height: 380px;
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+	margin: 0 0 30px 0;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 60px;
+	line-height: 70px;
+	color: #000000;
+}
+
+.txt {
+	margin: 0 0 43px 0;
+	font-family: 'Gilroy-Medium';
+	font-size: 20px;
+	line-height: 23px;
+	color: #888888;
+	max-width: 466px;
+	width: 100%;
+}
+
+.buttons {
+	display: flex;
+	justify-content: flex-start;
+	gap: 72px;
+}
+
+.btn-start {
+	padding: 15px 35px;
+	width: 140px;
+	height: 50px;
+	background: #F25822;
+	box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+	border-radius: 50px;
+	font-family: 'Gilroy-Bold';
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	border: none;
+}
+
+.btn-video {
+	font-family: 'Gilroy-Bold';
+	font-size: 15px;
+	line-height: 18px;
+	color: #AAAAAA;
+	border: none;
+	background: #fff;
+}
+
+.top-content-img {
+	width: 610px;
+	height: 380px;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+/*============================== END top content ===============================*/
+/*============================= brand ===============================*/
+.brand {
+	padding: 100px 0;
+}
+
+.brand-logo {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 48px;
+}
+
+/*============================== END brand ======================================*/

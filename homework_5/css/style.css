@@ -1,0 +1,378 @@
+@font-face {
+	font-family: 'Gilroy-SemiBold';
+	src: url('../fonts/gilroy-semibold.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-semibold.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-semibold.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-semibold.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-semibold.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-semibold.svg#gilroy-semibold') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Regular';
+	src: url('../fonts/gilroy-regular.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/gilroy-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/gilroy-regular.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/gilroy-regular.svg#gilroy-regular') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.center {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*=========================== header =======================================*/
+.header {
+	padding: 30px 0;
+	margin: 0 0 40px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+	gap: 36px;
+}
+
+.menu-link {
+	font-family: 'Gilroy-SemiBold', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 36px;
+}
+
+.menu-home-link {
+	color: #F25822;
+}
+
+/*=========================== END header ====================================*/
+/*============================== top content ================================*/
+.top-content {
+	padding: 0 0 50px 0;
+	margin: 0 0 115px 0;
+	display: flex;
+	justify-content: flex-start;
+	gap: 40px;
+}
+
+.top-info {
+	max-width: 522px;
+	/*max-height: 380px;*/
+	width: 100%;
+	/*height: 100%;*/
+}
+
+.title {
+	margin: 0 0 30px 0;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 60px;
+	line-height: 70px;
+	color: #000000;
+}
+
+.txt {
+	margin: 0 0 43px 0;
+	font-family: 'Gilroy-Medium';
+	font-size: 20px;
+	line-height: 23px;
+	color: #888888;
+	max-width: 466px;
+	width: 100%;
+}
+
+.buttons {
+	display: flex;
+	justify-content: flex-start;
+	gap: 72px;
+}
+
+.btn-start {
+	padding: 15px 35px;
+	width: 140px;
+	height: 50px;
+	background: #F25822;
+	box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+	border-radius: 50px;
+	font-family: 'Gilroy-Bold';
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	border: none;
+}
+
+.btn-video {
+	font-family: 'Gilroy-Bold';
+	font-size: 15px;
+	line-height: 18px;
+	color: #AAAAAA;
+	border: none;
+	background: #fff;
+}
+
+.top-content-img {
+	width: 610px;
+	height: 380px;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+/*============================== END top content ===============================*/
+/*============================= brand ===============================*/
+.brand {
+	padding: 100px 0;
+}
+
+.brand-logo {
+	display: flex;
+	justify-content: center;
+	gap: 48px;
+}
+
+/*============================== END brand ======================================*/
+
+/*============================== features =======================================*/
+.features {
+	padding: 93px 0 107px 0;
+}
+
+.features-list {
+	display: grid;
+	grid-template-columns: 310px 370px 310px;
+	gap: 60px;
+	justify-content: center;
+	align-items: center;
+}
+
+.features-item {
+	max-width: 310px;
+	width: 100%;
+	padding: 30px;
+}
+
+.features-item-center {
+	background: #FFFFFF;
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.features-item-img {
+	width: 70px;
+	height: 70px;
+	background-image: url('../img/icon_feature_1.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.features-item-img_2 {
+	background-image: url('../img/icon_feature_2.svg');
+}
+
+.features-item-img_3 {
+	background-image: url('../img/icon_feature_3.svg');
+}
+
+.features-item-title {
+	margin: 25px 0 17px 0;
+	font-family: 'Gilroy-Bold';
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.features-item-txt {
+	margin: 0 0 25px 0;
+	max-width: 310px;
+	width: 100%;
+	font-family: 'Gilroy-Regular';
+	font-size: 15px;
+	line-height: 150%;
+	color: #666666;
+}
+
+.features-item-read_more {
+	font-family: 'Gilroy-Bold';
+	font-size: 11px;
+	line-height: 150%;
+	color: #000000;
+	border: none;
+	background: #fff;
+}
+
+/*============================== END features =======================================*/
+/*============================== Services =======================================*/
+
+.services {
+	background: #FAFAFA;
+}
+
+.services-head {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 19px;
+	padding: 92px 0 55px 0;
+
+}
+
+.services-head-title {
+	font-family: 'Gilroy-Bold';
+	font-size: 45px;
+	line-height: 53px;
+	color: #000000;
+}
+
+.services-head-txt {
+	max-width: 682px;
+	width: 100%;
+	font-family: 'Gilroy-Regular';
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #666666;
+}
+
+.services-list {
+	display: grid;
+	grid-template-columns: repeat(3, 370px);
+	gap: 30px;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+
+.services-content-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #FFFFFF;
+}
+
+.services-content-item-center {
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.services-content-item-img {
+	width: 370px;
+	height: 270px;
+	background-image: url('../img/services1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 25px;
+	background-size: contain;
+
+}
+
+.services-content-item-img2 {
+	background-image: url('../img/services2.png');
+}
+
+.services-content-item-img3 {
+	background-image: url('../img/services3.png');
+}
+
+.services-content-item-title {
+	margin-bottom: 22px;
+	font-family: 'Gilroy-Bold';
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.services-content-item-txt {
+	margin-bottom: 39px;
+	max-width: 310px;
+	width: 100%;
+	font-family: 'Gilroy-Regular';
+	font-size: 15px;
+	line-height: 150%;
+	text-align: center;
+	color: #AAAAAA;
+}
+
+.services-content-item-btn {
+	margin-bottom: 50px;
+	width: 150px;
+	height: 50px;
+	background: #F25822;
+	box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+	border-radius: 50px;
+	font-family: 'Gilroy-Bold';
+	font-size: 13px;
+	line-height: 150%;
+	text-align: center;
+	color: #FFFFFF;
+	border: none;
+} 
+/*============================== END Services =======================================*/

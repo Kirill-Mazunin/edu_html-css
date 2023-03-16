@@ -41,7 +41,13 @@ ul {
     position: relative;
 }
 
-.header-wrp-btn {
+.header-wrp-btn-left {
+    display: flex;
+    align-items: baseline;
+    gap: 33px;
+}
+
+.header-wrp-btn-right {
     display: flex;
     align-items: center;
     gap: 33px;
@@ -140,15 +146,17 @@ ul {
     top: 10px;
 }
 
-#menu-switch:checked~ .menu-btn span {
+#menu-switch:checked~.menu-btn span {
     background-color: #222;
 }
-#menu-switch:checked~ .menu-btn span::before {
+
+#menu-switch:checked~.menu-btn span::before {
     transform: rotate(45deg);
     top: 0px;
     transition: transform 1s ease
 }
-#menu-switch:checked~ .menu-btn span::after {
+
+#menu-switch:checked~.menu-btn span::after {
     transform: rotate(-45deg);
     top: 0px;
     transition: transform 1s ease
@@ -905,7 +913,6 @@ footer {
     }
 
     .products-list {
-        /* grid-template-columns: repeat(2, 360px); */
         column-gap: 16px;
         row-gap: 16px;
     }
@@ -982,7 +989,6 @@ footer {
     }
 
     .products-list {
-        /* grid-template-columns: repeat(1, 359px); */
         column-gap: 0px;
         row-gap: 16px;
     }
